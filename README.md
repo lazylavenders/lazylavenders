@@ -19,4 +19,3 @@ Here are some ideas to get you started:
 a medstudent. who loves dabbling in multiple hobbies. programming being one of them.
  - i love solving problems
  - my language of choice is generally Julia
- - 
