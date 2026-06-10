@@ -14,11 +14,17 @@
         crossorigin="anonymous"></script>
 </head>
 <body>
+  <h2>Hi!!! <br> I'm Kashif Ahmed.</h2>
   <!-- Chessboard container -->
-  <div id='myBoard' style="width: 400px; margin: 20px auto;"> hello</div>
+  <div id='myBoard' style="width: 400px; margin: 20px auto;"></div>
  
 <script>
-  const board = Chessboard2("myBoard", 'start');
+  const config = {
+    draggable: true,
+    onDragStart: logDragStart,
+    position:'start'
+  }
+  const board = Chessboard2("myBoard", config);
   // YAYYYY It works aye aye aye 
 
 </script>
